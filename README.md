@@ -1,4 +1,4 @@
-# Root-it
+# Team 17 Root-it: Optimization of Bidding Strategy for Online Ad Rankings
 
 This repository contains notebooks analyzing the Root insurance data. The data contains information of customers who were presented advertisments from five insurance agencies, including the client. Each insurance company "bids" for the placement of their advertisement for each customer, and the ads are shown to the customer in order from highest to lowest bidder. The customer can then choose to click any ad shown and can purchase a policy from any ad they click.
 
