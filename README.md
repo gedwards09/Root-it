@@ -14,4 +14,8 @@ Modeling.ipynb explains the approach for modeling the bids of competing insuranc
 
 'Bids Hybrid and Cost.ipynb' calculates the minimum of expected cost per expected policy sold under the constraint that the expected number of policies equals 400 and computes the optimal bids for each customer using the mixture model.
 
+OptimizedBidsHybrid.csv contains the bid strategy obtained in 'Bids Hybrid and Cost.ipynb'
+
 Gradient_Descent.ipynb implements a stochastic gradient descent to minimize the loss function, equal to the logarithm of expected cost per customer acquired plus a barrier function to force a solution with the constrained region. The variance is estimated through bootstrapping to find a confidence level that the constraint will be met with future data.
+
+Gradient_Descent_Bids.csv contains the bids as a result of the stochastic gradient descent.
