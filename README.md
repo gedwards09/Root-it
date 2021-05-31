@@ -12,7 +12,7 @@ Main_EDA.ipynb contains the initial exploratory data analysis, and explores both
 
 Modeling.ipynb explains the approach for modeling the bids of competing insurance companies. The approach ultimately uses a mixture model of uniform distributions with exponential tails specific to each class of customer to model competing bids. The sear for the best bidding strategy is then formulated as a constrained optimization problem.
 
-'Bids Hybrid and Cost.ipynb' calculates the minimum of expected cost per expected policy sold under the constraint that the expected number of policies equals 400 and computes the optimal bids for each customer using the mixture model.
+Optimize_Bids.ipynb calculates the minimum of expected cost per expected policy sold under the constraint that the expected number of policies equals 400 and computes the optimal bids for each customer using the mixture model, then finds the optimal bid strategy to meet 95% confidence greater than 400. In addition, it calculates the expected cost for 800 policies sold.
 
 OptimizedBidsHybrid.csv contains the bid strategy obtained in 'Bids Hybrid and Cost.ipynb'
 
